@@ -50,8 +50,8 @@ var buildSite = metalsmith(__dirname)
       url: process.env.NODE_ENV === 'production' ? 'http://the-other-side-of-empathy.com' : 'http://localhost:3000'
     }
   })
-  .source('./src')
-  .destination('./build')
+  .source(process.env.SRC || './src')
+  .destination(process.env.BUILD || './build')
   .use(styles())
   .use(markdown())
   .use(excerpts())
@@ -77,14 +77,18 @@ var buildSite = metalsmith(__dirname)
     engine: 'handlebars',
     moment: moment,
     directory: './templates'
-  }))
-  .use(browserSync({
+  }));
+
+if (process.env.NODE_ENV !== 'production') {
+  buildSite.use(browserSync({
     files: ['src/**/*', 'templates/**/*']
   }))
-  .build(function (err) {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log('Site build complete');
-    }
-  });
+}
+
+buildSite.build(function (err) {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('Site build complete');
+  }
+});
