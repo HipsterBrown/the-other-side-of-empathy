@@ -1,6 +1,6 @@
 {
   "name": "empathy-site",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "The site with resources for learning more about applying empathy in everyday life.",
   "main": " ",
   "scripts": {
