@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    block head
+      block title
+        title= title ? title + " | " + site.title : site.title
+      block styles
+      script(src="http://localhost:35729/livereload.js")
+  body
+    block body
+      #layout-main
+        block main

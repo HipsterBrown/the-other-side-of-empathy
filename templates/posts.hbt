@@ -1,0 +1,19 @@
+{{> header }}
+
+<section id="posts">
+  <h1>Posts</h1>
+  {{#if collections.posts}}
+    {{#each collections.posts }}
+      <h2>
+        <a href="/{{ path }}">{{ title }}</a>
+      </h2>
+      <div>
+        {{{ excerpt }}}
+      </div>
+    {{/each}}
+  {{else}}
+    <h2>There ain't no posts here.</h2>
+  {{/if}}
+</section>
+
+{{> footer }}

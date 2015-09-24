@@ -1,0 +1,32 @@
+{{> header }}
+
+<section class="col-5 mx-auto mt3 border-bottom border-gray">
+  {{{ contents }}}
+</section>
+
+<section class="col-5 mx-auto" id="posts">
+  {{#if collections.posts}}
+    {{#each collections.posts }}
+      <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py2">
+        <h2>
+          <a href="/{{ path }}" class="teal">
+            {{ title }} 
+            {{#if link}}
+              -> 
+            {{/if}}
+          </a>
+        </h2>
+        <div>
+          {{{ excerpt }}}
+        </div>
+        <p class="h5 gray">{{formatDate publishDate}}</p>
+      </article>
+    {{/each}}
+  {{else}}
+    <h2>There ain't no posts here.</h2>
+  {{/if}}
+  <p class="gray center py3">(Fin)</p>
+</section>
+
+{{> footer }}
+

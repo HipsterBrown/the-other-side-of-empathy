@@ -1,0 +1,17 @@
+{{> header }}
+
+<section class="col-5 mx-auto h-100">
+  <h1>
+    {{#if link}}
+      <a href="{{link}}" class="teal" >{{ title }} -></a>
+    {{else}}
+      {{ title }}
+    {{/if}}
+  </h1>
+  <div>
+    {{{ contents }}}
+  </div>
+  <p class="gray h5" >{{formatDate publishDate}}</p>
+</section>
+
+{{> footer }}
