@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: index.hbt
+paginate: posts
 ---
 
 Hello!

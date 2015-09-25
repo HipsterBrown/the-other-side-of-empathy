@@ -5,6 +5,7 @@ var metalsmith = require('metalsmith'),
   markdown = require('metalsmith-markdown'),
   permalinks = require('metalsmith-permalinks'),
   layouts = require('metalsmith-layouts'),
+  pagination = require('metalsmith-pagination'),
   moment = require('moment'),
   Handlebars = require('handlebars')
   fs = require('fs')
@@ -18,6 +19,30 @@ Handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/par
 Handlebars.registerHelper('formatDate', function (date) {
   return moment(Date.parse(date)).format('DD MMM YYYY');
 });
+
+Handlebars.registerHelper('limit', function(collection, limit, start) {
+  var out   = [],
+    i, c;
+
+  start = start || 0;
+
+  for (i = c = 0; i < collection.length; i++) {
+    if (i >= start && c < limit+1) {
+      out.push(collection[i]);
+      c++;
+    }
+  }
+
+  return out;
+});
+
+Handlebars.registerHelper('prevPage', function (num) {
+  return num - 1;
+})
+
+Handlebars.registerHelper('nextPage', function (num) {
+  return num + 1;
+})
 
 var styles = function (config) {
   return function (files, metalsmith, done) {
@@ -58,6 +83,15 @@ var buildSite = metalsmith(__dirname)
       pattern: 'posts/**.html',
       sortBy: 'publishDate',
       reverse: true
+    }
+  }))
+  .use(pagination({
+    'collections.posts': {
+      perPage: 5,
+      path: 'posts',
+      layout: 'index.hbt',
+      first: 'index.html',
+      path: 'page/:num/index.html'
     }
   }))
   .use(branch('posts/**.html')
