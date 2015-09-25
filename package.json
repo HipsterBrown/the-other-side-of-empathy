@@ -12,6 +12,7 @@
     "autoprefixer": "^6.0.3",
     "basscss": "^7.0.4",
     "basscss-border-colors": "^1.1.1",
+    "basscss-responsive-white-space": "^0.1.0",
     "basscss-utility-headings": "0.0.6",
     "browser-sync": "^2.9.3",
     "cssnext": "^1.8.4",

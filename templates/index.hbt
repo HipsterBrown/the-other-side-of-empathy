@@ -1,10 +1,10 @@
 {{> header }}
 
-<section class="col-5 mx-auto mt3 border-bottom border-gray">
+<section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto mt3 border-bottom border-gray">
   {{{ contents }}}
 </section>
 
-<section class="col-5 mx-auto" id="posts">
+<section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto" id="posts">
   {{#if collections.posts}}
     {{#each collections.posts }}
       <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py2">

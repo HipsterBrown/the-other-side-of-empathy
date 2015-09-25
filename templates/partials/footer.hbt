@@ -1,5 +1,5 @@
     <footer class="white bg-maroon py2">
-      <section class="col-6 mx-auto">
+      <section class="col-10 sm-col-8 md-col-6  mx-auto">
         <p class="mb0">Created by <a href="https://twitter.com/hipsterbrown" class="teal">@hipsterbrown</a>.</p>
         <p class="mb0">Inspired by the community.</p>
       </section> 

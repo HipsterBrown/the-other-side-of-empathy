@@ -1,6 +1,6 @@
 {{> header }}
 
-<section class="col-5 mx-auto h-100">
+<section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto h-100">
   <h1>
     {{#if link}}
       <a href="{{link}}" class="teal" >{{ title }} -></a>
