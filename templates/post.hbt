@@ -1,13 +1,10 @@
 {{> header }}
 
 <section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto h-100">
-  <h1>
-    {{#if link}}
-      <a href="{{link}}" class="teal" >{{ title }} -></a>
-    {{else}}
-      {{ title }}
-    {{/if}}
-  </h1>
+  <h1 {{#if link}}class="mb0"{{/if}} >{{ title }}</h1>
+  {{#if link}}
+    <a href="{{link}}" class="gray h5 mb2 inline-block">[{{shorten link 58}}]</a>
+  {{/if}}
   <div>
     {{{ contents }}}
   </div>

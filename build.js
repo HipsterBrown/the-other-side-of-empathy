@@ -20,28 +20,16 @@ Handlebars.registerHelper('formatDate', function (date) {
   return moment(Date.parse(date)).format('DD MMM YYYY');
 });
 
-Handlebars.registerHelper('limit', function(collection, limit, start) {
-  var out   = [],
-    i, c;
-
-  start = start || 0;
-
-  for (i = c = 0; i < collection.length; i++) {
-    if (i >= start && c < limit+1) {
-      out.push(collection[i]);
-      c++;
-    }
-  }
-
-  return out;
-});
-
 Handlebars.registerHelper('prevPage', function (num) {
   return num - 1;
 })
 
 Handlebars.registerHelper('nextPage', function (num) {
   return num + 1;
+})
+
+Handlebars.registerHelper('shorten', function (text, maxLength) {
+  return text.length >= maxLength ? text.slice(0, -3) + '...' : text;
 })
 
 var styles = function (config) {

@@ -9,19 +9,19 @@
 <section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto" id="posts">
   {{#if collections.posts}}
     {{#each pagination.files }}
-      <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py2">
-        <h2>
+      <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py3">
+        <h2 {{#if link}}class="m0"{{/if}}>
           <a href="/{{ path }}" class="teal">
             {{ title }} 
-            {{#if link}}
-              -> 
-            {{/if}}
           </a>
         </h2>
+        {{#if link}}
+          <a href="{{link}}" class="gray h5 mb2 inline-block">[{{shorten link 58}}]</a>
+        {{/if}}
         <div>
           {{{ excerpt }}}
         </div>
-        <p class="h5 gray">{{formatDate publishDate}}</p>
+        <p class="h5 gray mb0">{{formatDate publishDate}}</p>
       </article>
     {{/each}}
   {{else}}
