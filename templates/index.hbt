@@ -19,7 +19,7 @@
           <a href="{{link}}" class="gray h5 mb2 inline-block">[{{shorten link 58}}]</a>
         {{/if}}
         <div>
-          {{{ excerpt }}}
+          {{{ content }}}
         </div>
         <p class="h5 gray mb0">{{formatDate publishDate}}</p>
       </article>

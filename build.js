@@ -54,6 +54,17 @@ var styles = function (config) {
   }
 }
 
+var content = function (config) {
+  return function (files, metalsmith, done) {
+    setImmediate(done)
+    Object.keys(files).forEach(function (file) {
+      var data = files[file]
+
+      data.content = data.contents.toString()
+    })
+  }
+}
+
 var buildSite = metalsmith(__dirname)
   .metadata({
     site: {
@@ -65,7 +76,7 @@ var buildSite = metalsmith(__dirname)
   .destination(process.env.BUILD || './build')
   .use(styles())
   .use(markdown())
-  .use(excerpts())
+  .use(content())
   .use(collections({
     posts: {
       pattern: 'posts/**.html',
@@ -101,7 +112,7 @@ var buildSite = metalsmith(__dirname)
 
 if (process.env.NODE_ENV !== 'production') {
   buildSite.use(browserSync({
-    files: ['src/**/*', 'templates/**/*']
+    files: ['src/*.css']
   }))
 }
 
