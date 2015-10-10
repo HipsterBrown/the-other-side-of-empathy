@@ -13,6 +13,12 @@
   color: var(--white);
 }
 
+blockquote {
+  border-left: 1px solid var(--teal);
+  margin: 0;
+  padding: 0 var(--space-2);
+}
+
 .h-100 {
   height: 100%;
 }
