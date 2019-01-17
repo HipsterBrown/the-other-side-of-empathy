@@ -69,7 +69,7 @@ var buildSite = metalsmith(__dirname)
   .metadata({
     site: {
       title: 'More Empathy Online',
-      url: process.env.NODE_ENV === 'production' ? 'http://more-empathy.online' : 'http://localhost:3000'
+      url: process.env.NODE_ENV === 'production' ? 'https://more-empathy.online' : 'http://localhost:3000'
     }
   })
   .source(process.env.SRC || './src')
