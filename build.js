@@ -47,7 +47,7 @@ var styles = function (config) {
     css = result;
 
     files['assets/style.css'] = {
-      contents: new Buffer(css)
+      contents: Buffer.from(css)
     };
 
     done();
