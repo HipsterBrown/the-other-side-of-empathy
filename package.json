@@ -28,6 +28,7 @@
     "metalsmith-paginate": "^0.3.0",
     "metalsmith-pagination": "^1.1.1",
     "metalsmith-permalinks": "^2.2.0",
-    "moment": "^2.10.6"
+    "moment": "^2.10.6",
+    "uglify-js": "^2.6.0"
   }
 }
