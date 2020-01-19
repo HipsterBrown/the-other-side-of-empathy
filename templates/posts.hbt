@@ -5,7 +5,7 @@
   {{#if collections.posts}}
     {{#each collections.posts }}
       <h2>
-        <a href="/{{ path }}">{{ title }}</a>
+        <a href="./{{ path }}">{{ title }}</a>
       </h2>
       <div>
         {{{ excerpt }}}
