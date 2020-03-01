@@ -1,5 +1,5 @@
 ---
 title: blog of posts
-layout: posts.hbt
+layout: posts.hbs
 paginate: posts
 ---

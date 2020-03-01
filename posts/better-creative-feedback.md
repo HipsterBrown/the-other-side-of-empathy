@@ -3,7 +3,7 @@ title: Better Creative Feedback
 publishDate: 2015-04-23
 author: Hipsterbrown
 link: http://planetary.io/notes/towards-better-creative-feedback
-layout: post.hbt
+layout: post.hbs
 medium:
 - blog
 tenant:

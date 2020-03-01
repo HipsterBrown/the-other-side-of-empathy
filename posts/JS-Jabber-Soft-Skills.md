@@ -3,7 +3,7 @@ title: Soft Skills and Marketing Yourself as a Software Developer with John Sonm
 publishDate: 2015-04-21
 author: Hipsterbrown
 link: http://devchat.tv/js-jabber/156-jsj-soft-skills-and-marketing-yourself-as-a-software-developer-with-john-sonmez
-layout: post.hbt
+layout: post.hbs
 medium:
 - podcast
 tenant:

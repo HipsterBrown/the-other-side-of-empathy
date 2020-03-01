@@ -3,7 +3,7 @@ title: ShopTalk Show Speacial - 1 on 1 with a Hacker
 publishDate: 2015-04-23
 author: Hipsterbrown
 link: http://shoptalkshow.com/episodes/special-one-one-hacker/
-layout: post.hbt
+layout: post.hbs
 medium:
 - podcast
 tenant:

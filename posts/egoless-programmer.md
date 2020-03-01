@@ -3,7 +3,7 @@ title: Dad and the Ten Commandments of the Egoless Programmer
 publishDate: 2015-04-22
 author: Hipsterbrown
 link: http://blog.stephenwyattbush.com/2012/04/07/dad-and-the-ten-commandments-of-egoless-programming
-layout: post.hbt
+layout: post.hbs
 medium:
 - blog
 tenant:
