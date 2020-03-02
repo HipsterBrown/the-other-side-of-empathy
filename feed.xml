@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>More Empathy Online</title>
+  <subtitle>A collection of resources for understanding and applying empathy in everyday experiences.</subtitle>
+  <link href="https://more-empathy.online/feed.xml" rel="self"/>
+  <link href="https://more-empathy.online"/>
+  <updated>2015-04-20T00:00:00-00:00</updated>
+  <id>https://more-empathy.online</id>
+  <author>
+    <name>Nicholas Hehr</name>
+    <email>headhipster@hipsterbrown.com</email>
+  </author>
+  
+  <entry>
+    <title>JavaScript Community - The Good Parts</title>
+    <link href="https://more-empathy.online/posts/JS-Community-Good-Parts/"/>
+    <updated>2015-10-09T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/JS-Community-Good-Parts/</id>
+    <content type="html">&lt;p&gt;In this conference talk, &lt;a href=&quot;https://twitter.com/brnnbrn&quot;&gt;Brenna O&#39;Brien&lt;/a&gt; discusses what she loves most about JavaScript, the community. She covers why it&#39;s important to remember what it was like to start out in the community and channel that empathy into the resources we provide online, i.e. code examples without arbitrary jargon like &amp;quot;foo&amp;quot; and &amp;quot;bar&amp;quot;. One of the best points to follow is removing condescending language, like &amp;quot;simply&amp;quot; and &amp;quot;just&amp;quot;, while teaching others.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Consequences of an Insightful Algorithm</title>
+    <link href="https://more-empathy.online/posts/consequences-insightful-algorithm/"/>
+    <updated>2015-10-07T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/consequences-insightful-algorithm/</id>
+    <content type="html">&lt;p&gt;For the closing keynote of JSConfEu 2015, &lt;a href=&quot;https://twitter.com/cczona&quot;&gt;Carina C. Zona&lt;/a&gt; shows us the algorithms and artificial intelligence systems being designed at massive companies like Google, Flickr, Facebook, and Apple can backfire when they forget about the edge cases and lack empathy for all of the end users. A particularly interesting section covers racial bias passed down from the development of color photography into the calibration of digital cameras and screens.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The Power of Emapthy</title>
+    <link href="https://more-empathy.online/posts/power-of-empathy/"/>
+    <updated>2015-09-29T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/power-of-empathy/</id>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Empathy is feeling &lt;em&gt;with&lt;/em&gt; people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This video was shared in several talks during &lt;a href=&quot;http://wwwtf.berlin/&quot;&gt;WhatTheFest Berlin&lt;/a&gt; and is a fantastic intro for anyone researching empathy. The use of animation to make the subject more approachable and informative is very well done. It dives straight into the core of empathy as a means for connecting with others and pushing away judgement in an effort to understand.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to Talk to Designers About Design</title>
+    <link href="https://more-empathy.online/posts/how-to-talk-to-designers-about-design/"/>
+    <updated>2015-08-24T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/how-to-talk-to-designers-about-design/</id>
+    <content type="html">&lt;p&gt;One of my favorite things to take away from this article is &amp;quot;communicate - not guess&amp;quot;. After going in-depth about specific methods and tips for more effective communication with designers, it&#39;s easy to see how these same suggestions can be applied to more effective communication with coworkers in general. Remaining constructive and always moving the discussion forward will keep the entire project productive.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>No-Flex Zone (Empathy Driven Development)</title>
+    <link href="https://more-empathy.online/posts/no-flex-zone/"/>
+    <updated>2015-08-10T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/no-flex-zone/</id>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Overwhelmingly, empathy is a skill. We have to practice it; it’s a choice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;m0&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We need to start feeling empathy for these teams and treating their work as valid — as valid as engineering work. For instance, in the case of Sales, often they’ll have a quota they have to hit, else they literally lose their jobs. It’s an incredibly high-stakes profession. As engineers, we won’t be fired for building fewer features; in fact, we’ll probably be promoted if we manage to simplify the feature-set.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This article is extensive and thorough in covering the various methods of applying empathy for customers, coworkers, and ourselves. Bonus points for the wonderful use of gifs.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Design Details Ep. 27 - Socialist Design</title>
+    <link href="https://more-empathy.online/posts/socialist-design/"/>
+    <updated>2015-05-21T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/socialist-design/</id>
+    <content type="html">&lt;p&gt;I&#39;ve really been enjoying this podcast interviewing various designers about their work and insights, and this episode with Kim Bost &amp;amp; Cap Watkins is definitely my favorite so far. Their ideals in sharing context in the collaborative design process and applying empathy with co-workers are exactly what I&#39;d like to see more developers embrace. That discussion begins about 30 minutes in but I encourage listening to the entire episode.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>As A New Developer</title>
+    <link href="https://more-empathy.online/posts/as-a-new-developer/"/>
+    <updated>2015-05-21T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/as-a-new-developer/</id>
+    <content type="html">&lt;p&gt;It&#39;s important to remember what it was like getting started in tech, and this post by Charlotte Spencer is the perfect resource for just that. She has an open mind and contagious curiousity that sets an example of how we should interact with others, whether or not they&#39;re in our industry.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Practicing Empathy with Teams</title>
+    <link href="https://more-empathy.online/posts/practicing-empathy-with-teams/"/>
+    <updated>2015-05-13T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/practicing-empathy-with-teams/</id>
+    <content type="html">&lt;p&gt;I love seeing this message spread as much as possible. Susan Robertson describes some simple steps for applying empathy at work in this A List Apart article. It&#39;s a great place to get started and create a culture around empathy.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The Other Side of Empathy (EmpireJS)</title>
+    <link href="https://more-empathy.online/posts/other-side-of-empathy-empire/"/>
+    <updated>2015-05-05T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/other-side-of-empathy-empire/</id>
+    <content type="html">&lt;p&gt;The recorded video of my talk about applying empathy and creating an empathic environment while building great products at work. My first conference talk, so any constructive feedback is welcome.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Practical Empathy</title>
+    <link href="https://more-empathy.online/posts/practical-empathy/"/>
+    <updated>2015-04-24T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/practical-empathy/</id>
+    <content type="html">&lt;p&gt;Practical Empathy goes into the extreme depths of understanding empathy and how it can be applied in the our workflows. The wonderful pairing of insightful examples and amazing illustrations makes this book required reading in the study of empathy.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>ShopTalk Show Speacial - 1 on 1 with a Hacker</title>
+    <link href="https://more-empathy.online/posts/shoptalk-special/"/>
+    <updated>2015-04-23T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/shoptalk-special/</id>
+    <content type="html">&lt;p&gt;After Chris Coyier&#39;s site, CSS-Tricks, was nearly hacked and personal info exposed online, he did the unexpected and invited the hacker onto his podcast with Dave Rupert to discuss the hacker&#39;s motivation behind his attack. This is an insightful exploration into social engineering and confronting an opposite view to find out more about it.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Better Creative Feedback</title>
+    <link href="https://more-empathy.online/posts/better-creative-feedback/"/>
+    <updated>2015-04-23T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/better-creative-feedback/</id>
+    <content type="html">&lt;p&gt;Constructive feedback is a key concept in creating empathy among a team. It helps push a project forward into the best it can be. The folks at Planetary did a spectacular job describing what good feedback looks like and how they use it in their workflow.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Dad and the Ten Commandments of the Egoless Programmer</title>
+    <link href="https://more-empathy.online/posts/egoless-programmer/"/>
+    <updated>2015-04-22T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/egoless-programmer/</id>
+    <content type="html">&lt;p&gt;A short and sweet blog post referencing a set of ideals from The Psychology of Computer Programming. While not every commandment exemplifies empathy, items 4, 5, 9, 10 are my favorite from the bunch.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Your Most Important Skill</title>
+    <link href="https://more-empathy.online/posts/Your-Most-Important-Skill/"/>
+    <updated>2015-04-22T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/Your-Most-Important-Skill/</id>
+    <content type="html">&lt;p&gt;A succinct about how to get started practicing empathy in everyday life and why it is important to do so.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Nonviolent Communication</title>
+    <link href="https://more-empathy.online/posts/nonviolent-communication/"/>
+    <updated>2015-04-21T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/nonviolent-communication/</id>
+    <content type="html">&lt;p&gt;Communication is another key element in gaining empathy and encouraging others to have empathy for others. Nonviolent Communication goes into practical exercises for interacting with other effectively and peacefully.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Soft Skills and Marketing Yourself as a Software Developer with John Sonmez</title>
+    <link href="https://more-empathy.online/posts/JS-Jabber-Soft-Skills/"/>
+    <updated>2015-04-21T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/JS-Jabber-Soft-Skills/</id>
+    <content type="html">&lt;p&gt;JavaScript Jabber tends to get fairly technical during most shows, so this interview with John Sonmez was a pleasant contrast. While &amp;quot;soft skills&amp;quot; are usually given less importance in the developer world, it was wonderful to hear John and the panel discuss how relationship skills generally lead to happier programmers. This is also the third episode with Aimee Knight, who has been a superb addition to the male dominated panel.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>What We Say Matters</title>
+    <link href="https://more-empathy.online/posts/what-we-say/"/>
+    <updated>2015-04-20T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/what-we-say/</id>
+    <content type="html">&lt;p&gt;Akin to Nonviolent Communication, this book follows a focus on compassion for others while staying honest to push ourselves forward.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to get designers (or anyone) to work on your open source project</title>
+    <link href="https://more-empathy.online/posts/Design-Open/"/>
+    <updated>2015-04-20T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/Design-Open/</id>
+    <content type="html">&lt;p&gt;The Design Open Project has been a fantastic resource for showing how designers can get involved in open source projects. This article, in particular, is supremely helpful for developers who want designers to get involved with their project, stepping through what fulfills the needs of contributors.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
