@@ -5,11 +5,22 @@
   <link href="https://more-empathy.online/feed.xml" rel="self"/>
   <link href="https://more-empathy.online"/>
   <updated>2015-04-20T00:00:00-00:00</updated>
-  <id>https://more-empathy.online</id>
+  <id>https://more-empathy.online/</id>
   <author>
     <name>Nicholas Hehr</name>
     <email>headhipster@hipsterbrown.com</email>
   </author>
+  
+  <entry>
+    <title>One small act of kindness</title>
+    <link href="https://more-empathy.online/posts/one-small-act-of-kindness/"/>
+    <updated>2020-03-01T00:00:00-00:00</updated>
+    <id>https://more-empathy.online/posts/one-small-act-of-kindness/</id>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Empathy: In face-to-face interactions, communication has a multi-modal nature involving the processing of visual facial cues (such as the speaker’s facial expression), the tone of the voice (i.e., affective prosody) and the choice of words (i.e., semantics).&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   
   <entry>
     <title>JavaScript Community - The Good Parts</title>
