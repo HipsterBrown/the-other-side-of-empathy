@@ -1,9 +1,9 @@
 ---
 title: Design Details Ep. 27 - Socialist Design
-publishDate: 2015-05-21
+date: 2015-05-21
 author: Hipsterbrown
 link: http://www.designdetails.fm/27/
-layout: post.hbt
+layout: post.hbs
 medium:
 - podcast
 tenant:

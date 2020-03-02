@@ -1,9 +1,9 @@
 ---
 title: As A New Developer
-publishDate: 2015-05-21
+date: 2015-05-21
 author: Hipsterbrown
 link: https://ccharlottespencer.wordpress.com/2015/01/09/as-a-new-developer/
-layout: post.hbt
+layout: post.hbs
 medium:
 - blog
 tenant:

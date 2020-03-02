@@ -1,9 +1,9 @@
 ---
 title: Practical Empathy
-publishDate: 2015-04-24
+date: 2015-04-24
 author: Hipsterbrown
 link: http://rosenfeldmedia.com/books/practical-empathy/
-layout: post.hbt
+layout: post.hbs
 medium:
 - book
 tenant:

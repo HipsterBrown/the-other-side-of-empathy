@@ -1,0 +1,45 @@
+{{> header }}
+
+<section class="col-10 sm-col-10 md-col-6 lg-col-4 mx-auto mt3 border-bottom border-gray">
+  <p>Hello!</p>
+
+  <p>This site shares a collection of resources for understanding and applying empathy in everyday experiences.</p>
+</section>
+
+<section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto" id="posts">
+  {{#if posts}}
+    {{#each posts }}
+      <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py3">
+        <h2 {{#if this.data.link}}class="m0"{{/if}}>
+          <a href="{{ this.url }}" class="teal">
+            {{ this.data.title }}
+          </a>
+        </h2>
+        {{#if this.data.link}}
+          <a href="{{this.data.link}}" class="gray h5 mb2 inline-block">[{{shorten this.data.link 58}}]</a>
+        {{/if}}
+        <div>
+          {{{ this.templateContent }}}
+        </div>
+        <p class="h5 gray mb0">{{formatDate this.data.date}}</p>
+      </article>
+    {{/each}}
+  {{else}}
+    <h2>There ain't no posts here.</h2>
+  {{/if}}
+
+  {{#if pagination.pages}}
+    <nav class="clearfix py3">
+      {{#if pagination.href.previous}}
+        <a href="{{pagination.href.previous}}">&lt; {{prevPage pagination.pageNumber}}</a>
+      {{/if}}
+      {{#if pagination.href.next}}
+        <a href="{{pagination.href.next}}" class="right teal" >{{nextPage pagination.pageNumber}} &gt;</a>
+      {{else}}
+        <p class="gray right">(Fin)</p>
+      {{/if}}
+    </nav>
+  {{/if}}
+</section>
+
+{{> footer }}

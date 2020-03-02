@@ -1,6 +1,6 @@
 # The Other Side of Empathy Resources
 
-This is a site for gathering resource to learn about and encourage empathy. It can be a book, blog post, podcast, video, etc; as long as you think it helped you understand empathy or empathize with someone else, open an issue or pull request to add it to this site. 
+This is a site for gathering resource to learn about and encourage empathy. It can be a book, blog post, podcast, video, etc; as long as you think it helped you understand empathy or empathize with someone else, open an issue or pull request to add it to this site.
 
 ## Contributing
 
@@ -9,7 +9,7 @@ There are two ways to contribute a resource to this project: [Locally with git](
 
 ### Local
 
-1. Fork this repo 
+1. Fork this repo
 2. Clone it locally
 3. Create a new `.md` file in `src/posts/` named by the title of the resource, i.e. `My-Post-Title.md`
 4. Add all the details of your suggested resource using [this template](#template) as a base
@@ -20,7 +20,7 @@ There are two ways to contribute a resource to this project: [Locally with git](
 
 ### Web
 
-1. Fork this repo 
+1. Fork this repo
 1. Click the "New file" button next to the green "New pull request" button
 2. In the "Name your file..." box, enter `src/posts/My-Post-Title.md` where `My-Post-Title` is the name of your resource
 3. In the large textbox, use [the template](#template) to add the necessary details about your resource
@@ -34,7 +34,7 @@ There are two ways to contribute a resource to this project: [Locally with git](
 ```markdown
 ---
 title: My Post Title
-publishDate: 2015-04-20
+date: 2015-04-20
 author: Hipsterbrown
 link: http://someblog.com/my-article-title.html
 layout: post.hbt (<- don't change that)

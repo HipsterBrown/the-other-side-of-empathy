@@ -1,9 +1,9 @@
 ---
 title: The Other Side of Empathy (EmpireJS)
-publishDate: 2015-05-05
+date: 2015-05-05
 author: Hipsterbrown
 link: https://www.youtube.com/watch?v=CPjHHomSM3U&spfreload=10
-layout: post.hbt
+layout: post.hbs
 medium:
 - video
 tenant:

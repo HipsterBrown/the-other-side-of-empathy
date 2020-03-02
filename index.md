@@ -1,7 +1,10 @@
 ---
 title: Home
-layout: index.hbt
-paginate: posts
+layout: index.hbs
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
 ---
 
 Hello!

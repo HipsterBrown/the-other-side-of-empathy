@@ -1,9 +1,9 @@
 ---
 title: Your Most Important Skill
-publishDate: 2015-04-22
+date: 2015-04-22
 author: Hipsterbrown
 link: https://medium.com/@chadfowler/your-most-important-skill-empathy-a75ffe5e0877
-layout: post.hbt
+layout: post.hbs
 medium:
 - blog
 tenant:
@@ -14,4 +14,3 @@ tenant:
 ---
 
 A succinct about how to get started practicing empathy in everyday life and why it is important to do so.
-

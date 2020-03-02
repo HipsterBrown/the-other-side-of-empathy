@@ -4,31 +4,23 @@
   "description": "The site with resources for learning more about applying empathy in everyday life.",
   "main": " ",
   "scripts": {
-    "build": "node build"
+    "build": "eleventy && postcss assets/main.css > _site/main.css",
+    "clean": "rm -rf _site/",
+    "serve": "eleventy --serve"
   },
   "author": "HipsterBrown <headhipster@hipsterbrown.com>",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^6.0.3",
+    "@11ty/eleventy": "^0.10.0",
     "basscss": "^7.0.4",
     "basscss-border-colors": "^1.1.1",
     "basscss-responsive-white-space": "^0.1.0",
     "basscss-utility-headings": "0.0.6",
-    "browser-sync": "^2.26.7",
-    "cssnext": "^1.8.4",
-    "handlebars": "^4.7.2",
-    "metalsmith": "^2.0.1",
-    "metalsmith-branch": "0.0.5",
-    "metalsmith-browser-sync": "^1.1.0",
-    "metalsmith-collections": "^0.9.0",
-    "metalsmith-drafts": "0.0.1",
-    "metalsmith-excerpts": "^1.3.0",
-    "metalsmith-layouts": "^1.4.1",
-    "metalsmith-markdown": "^1.3.0",
-    "metalsmith-paginate": "^0.3.0",
-    "metalsmith-pagination": "^1.1.1",
-    "metalsmith-permalinks": "^2.2.0",
-    "moment": "^2.10.6",
-    "uglify-js": "^2.6.0"
+    "cssnano": "^4.1.10",
+    "date-fns": "^2.10.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
   }
 }
