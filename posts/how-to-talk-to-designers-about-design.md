@@ -1,6 +1,6 @@
 ---
 title: How to Talk to Designers About Design
-publishDate: 2015-08-24
+date: 2015-08-24
 author: Hipsterbrown
 link: https://netguru.co/blog/talking-designers-about-design
 layout: post.hbs

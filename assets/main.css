@@ -1,4 +1,3 @@
-
 @import 'basscss';
 @import 'basscss-utility-headings';
 @import 'basscss-border-colors';
@@ -22,4 +21,3 @@ blockquote {
 .h-100 {
   height: 100%;
 }
-

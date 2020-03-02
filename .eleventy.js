@@ -1,4 +1,4 @@
-const moment = require("moment");
+const format = require("date-fns/format");
 
 module.exports = function(config) {
   config.addHandlebarsHelper("shorten", function(text, maxLength) {
@@ -6,7 +6,7 @@ module.exports = function(config) {
   });
 
   config.addHandlebarsHelper("formatDate", function(date) {
-    return moment(Date.parse(date)).format("DD MMM YYYY");
+    return format(date, "dd MMM yyyy");
   });
 
   config.addHandlebarsHelper("prevPage", function(num) {
@@ -14,10 +14,10 @@ module.exports = function(config) {
   });
 
   config.addHandlebarsHelper("nextPage", function(num) {
-    return num + 1;
+    return num + 2;
   });
 
   config.addCollection("posts", collection =>
-    collection.getFilteredByGlob("posts/*.md")
+    collection.getFilteredByGlob("posts/*.md").reverse()
   );
 };

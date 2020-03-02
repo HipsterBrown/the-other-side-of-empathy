@@ -1,6 +1,6 @@
 ---
 title: How to get designers (or anyone) to work on your open source project
-publishDate: 2015-04-20
+date: 2015-04-20
 author: Hipsterbrown
 link: http://designopen.org/articles/import-designers/
 layout: post.hbs

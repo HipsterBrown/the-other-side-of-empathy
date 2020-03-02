@@ -1,6 +1,6 @@
 ---
 title: Nonviolent Communication
-publishDate: 2015-04-21
+date: 2015-04-21
 author: Hipsterbrown
 link: http://www.amazon.com/Nonviolent-Communication-A-Language-Life/dp/1892005034
 layout: post.hbs

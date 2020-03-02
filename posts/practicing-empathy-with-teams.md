@@ -1,6 +1,6 @@
 ---
 title: Practicing Empathy with Teams
-publishDate: 2015-05-13
+date: 2015-05-13
 author: Hipsterbrown
 link: http://alistapart.com/blog/post/practicing-empathy-with-teams
 layout: post.hbs

@@ -1,6 +1,6 @@
 ---
 title: No-Flex Zone (Empathy Driven Development)
-publishDate: 2015-08-10
+date: 2015-08-10
 author: Hipsterbrown
 link: https://medium.com/@duretti/no-flex-zone-empathy-driven-development-aebf4d8cf7cf
 layout: post.hbs

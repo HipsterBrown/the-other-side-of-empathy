@@ -1,6 +1,6 @@
 ---
 title: Consequences of an Insightful Algorithm
-publishDate: 2015-10-07
+date: 2015-10-07
 author: Hipsterbrown
 link: https://www.youtube.com/watch?v=znwWYR1mzzw
 layout: post.hbs

@@ -1,6 +1,6 @@
 {{> header }}
 
-<section class="col-10 sm-col-8 md-col-6 lg-col-4 mx-auto mt3 border-bottom border-gray">
+<section class="col-10 sm-col-10 md-col-6 lg-col-4 mx-auto mt3 border-bottom border-gray">
   <p>Hello!</p>
 
   <p>This site shares a collection of resources for understanding and applying empathy in everyday experiences.</p>
@@ -21,7 +21,7 @@
         <div>
           {{{ this.templateContent }}}
         </div>
-        <p class="h5 gray mb0">{{formatDate this.data.publishDate}}</p>
+        <p class="h5 gray mb0">{{formatDate this.data.date}}</p>
       </article>
     {{/each}}
   {{else}}

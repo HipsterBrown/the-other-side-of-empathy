@@ -1,6 +1,6 @@
 ---
 title: JavaScript Community - The Good Parts
-publishDate: 2015-10-09
+date: 2015-10-09
 author: Hipsterbrown
 link: https://www.youtube.com/watch?v=2ypYniQa7_o
 layout: post.hbs

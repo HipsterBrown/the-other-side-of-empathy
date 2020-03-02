@@ -1,6 +1,6 @@
 ---
 title: The Power of Emapthy
-publishDate: 2015-09-29
+date: 2015-09-29
 author: Hipsterbrown
 link: https://vimeo.com/81492863
 layout: post.hbs
