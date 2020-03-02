@@ -1,3 +1,4 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const format = require("date-fns/format");
 
 module.exports = function(config) {
@@ -20,4 +21,6 @@ module.exports = function(config) {
   config.addCollection("posts", collection =>
     collection.getFilteredByGlob("posts/*.md").reverse()
   );
+
+  config.addPlugin(pluginRss);
 };
