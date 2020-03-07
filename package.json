@@ -13,15 +13,12 @@
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "basscss": "^7.0.4",
-    "basscss-border-colors": "^1.1.1",
-    "basscss-responsive-white-space": "^0.1.0",
-    "basscss-utility-headings": "0.0.6",
     "cssnano": "^4.1.10",
     "date-fns": "^2.10.0",
     "postcss-cli": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
     "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.2.0"
   }
 }

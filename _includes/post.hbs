@@ -1,14 +1,14 @@
 {{> header }}
 
-<section class="col-10 sm-col-8 md-col-6 lg-col-6 mx-auto h-100">
-  <h1 {{#if link}}class="mb0"{{/if}} >{{ title }}</h1>
+<section class="w-5/6 sm:w-4/6 md:w-3/6 lg:w-3/6 mx-auto h-100 py-10 h-full">
+  <h1 {{#if link}}class="text-2xl font-bold mb-0"{{/if}} >{{ title }}</h1>
   {{#if link}}
-    <a href="{{link}}" class="gray h5 mb2 inline-block">[{{shorten link 58}}]</a>
+    <a href="{{link}}" class="text-gray-500 text-sm mb-4 inline-block">[{{shorten link 58}}]</a>
   {{/if}}
-  <div>
+  <div class="mb-3">
     {{{ content }}}
   </div>
-  <p class="gray h5" >{{formatDate date}}</p>
+  <p class="text-gray-500 text-sm" >{{formatDate date}}</p>
 </section>
 
 {{> footer }}

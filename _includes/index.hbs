@@ -1,27 +1,27 @@
 {{> header }}
 
-<section class="col-10 sm-col-10 md-col-6 lg-col-6 mx-auto mt3 border-bottom border-gray">
-  <p>Hello!</p>
+<section class="w-5/6 sm:w-5/6 md:w-3/6 lg:3/6 mx-auto mt-6 border-b border-gray-600 pb-2">
+  <p class="mb-4">Hello!</p>
 
-  <p>This site shares a collection of resources for understanding and applying empathy in everyday experiences.</p>
+  <p class="mb-4">This site shares a collection of resources for understanding and applying empathy in everyday experiences.</p>
 </section>
 
-<section class="col-10 sm-col-8 md-col-6 lg-col-6 mx-auto" id="posts">
+<section class="w-5/6 sm:w-4/6 md:w-3/6 lg:w-3/6 mx-auto" id="posts">
   {{#if posts}}
     {{#each posts }}
-      <article class="{{#unless @last}}border-bottom border-gray{{/unless}} py3">
-        <h2 {{#if this.data.link}}class="m0"{{/if}}>
-          <a href="{{ this.url }}" class="teal">
+      <article class="{{#unless @last}}border-b border-gray-600{{/unless}} py-8">
+        <h2 {{#if this.data.link}}class="text-lg m-0 font-semibold"{{/if}}>
+          <a href="{{ this.url }}" class="text-teal-500">
             {{ this.data.title }}
           </a>
         </h2>
         {{#if this.data.link}}
-          <a href="{{this.data.link}}" class="gray h5 mb2 inline-block">[{{shorten this.data.link 58}}]</a>
+          <a href="{{this.data.link}}" class="text-gray-600 text-sm mb-4 inline-block">[{{shorten this.data.link 58}}]</a>
         {{/if}}
-        <div>
+        <div class="mb-2">
           {{{ this.templateContent }}}
         </div>
-        <p class="h5 gray mb0">{{formatDate this.data.date}}</p>
+        <p class="text-sm text-gray-600 mb-0">{{formatDate this.data.date}}</p>
       </article>
     {{/each}}
   {{else}}
@@ -29,14 +29,14 @@
   {{/if}}
 
   {{#if pagination.pages}}
-    <nav class="clearfix py3">
+    <nav class="clearfix py-8">
       {{#if pagination.href.previous}}
         <a href="{{pagination.href.previous}}">&lt; {{prevPage pagination.pageNumber}}</a>
       {{/if}}
       {{#if pagination.href.next}}
-        <a href="{{pagination.href.next}}" class="right teal" >{{nextPage pagination.pageNumber}} &gt;</a>
+        <a href="{{pagination.href.next}}" class="float-right text-teal-500" >{{nextPage pagination.pageNumber}} &gt;</a>
       {{else}}
-        <p class="gray right">(Fin)</p>
+        <p class="text-gray-600 text-right">(Fin)</p>
       {{/if}}
     </nav>
   {{/if}}

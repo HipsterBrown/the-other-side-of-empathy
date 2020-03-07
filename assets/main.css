@@ -1,23 +1,10 @@
-@import 'basscss';
-@import 'basscss-utility-headings';
-@import 'basscss-border-colors';
-@import 'basscss-responsive-white-space';
-
-:root {
-  --font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
 
 ::selection {
-  background-color: var(--maroon);
-  color: var(--white);
+  @apply bg-pink-600 text-white;
 }
 
 blockquote {
-  border-left: 1px solid var(--teal);
-  margin: 0;
-  padding: 0 var(--space-2);
-}
-
-.h-100 {
-  height: 100%;
+  @apply text-gray-700 border-l border-teal-400 m-0 py-0 px-4;
 }
