@@ -18,7 +18,7 @@
         {{#if this.data.link}}
           <a href="{{this.data.link}}" class="text-gray-600 text-sm mb-4 inline-block">[{{shorten this.data.link 58}}]</a>
         {{/if}}
-        <div class="mb-2">
+        <div class="mb-2 post-content">
           {{{ this.templateContent }}}
         </div>
         <p class="text-sm text-gray-600 mb-0">{{formatDate this.data.date}}</p>
