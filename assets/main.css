@@ -1,6 +1,10 @@
+/* purgecss start ignore */
 @import 'tailwindcss/base';
+/* purgecss end ignore */
+
 @import 'tailwindcss/utilities';
 
+/* purgecss start ignore */
 ::selection {
   @apply bg-pink-600 text-white;
 }
@@ -8,3 +12,4 @@
 blockquote {
   @apply text-gray-700 border-l border-teal-400 m-0 py-0 px-4;
 }
+/* purgecss end ignore */
