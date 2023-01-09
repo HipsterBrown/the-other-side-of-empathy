@@ -11,8 +11,8 @@
   "author": "HipsterBrown <headhipster@hipsterbrown.com>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "cssnano": "^4.1.10",
     "date-fns": "^2.10.0",
     "@fullhuman/postcss-purgecss": "^2.1.0",
